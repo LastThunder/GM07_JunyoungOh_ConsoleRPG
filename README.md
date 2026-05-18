@@ -1,12 +1,11 @@
 # 콘솔 RPG
-<br/>
 
 ## 개요
 MSA 구조를 로컬로 연습해 보기 위한 콘솔RPG
-<br/><br/>
+<br/>
 
 ## 주요내용
-<img width="230" height="450" alt="260517_GM_07_오준영_과제18 (7)" src="https://github.com/user-attachments/assets/6a9fdca7-204b-43fa-a413-1308e5eb49ee" align="left" hspace="20">
+<img width="230" height="500" alt="260517_GM_07_오준영_과제18 (7)" src="https://github.com/user-attachments/assets/6a9fdca7-204b-43fa-a413-1308e5eb49ee" align="left" hspace="20">
 
 1. 각 DB server
  - 유저&캐릭터 / 아이템 / 상점, 결제 / 게임 정보 등을 저장  (DB는 로컬 파일로 대체)
