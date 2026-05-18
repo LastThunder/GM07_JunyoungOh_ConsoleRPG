@@ -1,0 +1,29 @@
+{
+  "1": {
+    "Uid": 1,
+    "Account_Uid": 1,
+    "TypeNo": 1001001,
+    "JobNo": 10001,
+    "Name": "\uC8FC\uC778\uACF5",
+    "Level": 1,
+    "Exp_Cur": 100
+  },
+  "2": {
+    "Uid": 2,
+    "Account_Uid": 1,
+    "TypeNo": 1002001,
+    "JobNo": 10002,
+    "Name": "\uD788\uB85C\uC778",
+    "Level": 1,
+    "Exp_Cur": 100
+  },
+  "3": {
+    "Uid": 3,
+    "Account_Uid": 1,
+    "TypeNo": 1003001,
+    "JobNo": 10003,
+    "Name": "\uB3D9\uB8CCB",
+    "Level": 1,
+    "Exp_Cur": 100
+  }
+}

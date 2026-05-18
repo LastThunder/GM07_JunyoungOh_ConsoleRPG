@@ -1,0 +1,7 @@
+{
+  "1": {
+    "Account_Uid": 1,
+    "Jewel_Free": 500,
+    "Jewel_Money": 2000
+  }
+}

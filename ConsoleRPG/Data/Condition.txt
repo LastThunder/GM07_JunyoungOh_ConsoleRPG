@@ -1,0 +1,58 @@
+﻿[
+  {
+    "No": 0,
+    "Name": "죽음",
+    "IsMove": 0,
+    "Damage_per": 0,
+    "Element_Def": [ 0, 0, 0, 0, 0, 0 ]
+  },
+  {
+    "No": 1,
+    "Name": "정상",
+    "IsMove": 1,
+    "Damage_per": 0,
+    "Element_Def": [ 0, 0, 0, 0, 0, 0 ]
+  },
+  {
+    "No": 2,
+    "Name": "기절",
+    "IsMove": 0,
+    "Damage_per": 0,
+    "Element_Def": [ 0, 0, 0, 0, 0, 0 ]
+  },
+  {
+    "No": 3,
+    "Name": "화상",
+    "IsMove": 1,
+    "Damage_per": 10,
+    "Element_Def": [ -50, 0, -50, 0, 0, 0 ]
+  },
+  {
+    "No": 4,
+    "Name": "빙결",
+    "IsMove": 0,
+    "Damage_per": 0,
+    "Element_Def": [ 50, -100, 50, 0, 0, 200 ]
+  },
+  {
+    "No": 5,
+    "Name": "감전",
+    "IsMove": 1,
+    "Damage_per": 0,
+    "Element_Def": [ 0, 0, 0, -50, 0, 0 ]
+  },
+  {
+    "No": 6,
+    "Name": "수면",
+    "IsMove": 0,
+    "Damage_per": -20,
+    "Element_Def": [ 0, 0, 0, 0, 0, 0 ]
+  },
+  {
+    "No": 99,
+    "Name": "방어",
+    "IsMove": 1,
+    "Damage_per": 0,
+    "Element_Def": [ 50, 50, 50, 50, 0, 50 ]
+  }
+]

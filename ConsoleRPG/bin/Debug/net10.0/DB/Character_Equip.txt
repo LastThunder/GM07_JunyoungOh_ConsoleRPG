@@ -1,0 +1,32 @@
+{
+  "1": {
+    "Character_Uid": 1,
+    "Equip_Equipment_Uid": [
+      1,
+      -1,
+      -1,
+      -1,
+      8
+    ]
+  },
+  "2": {
+    "Character_Uid": 2,
+    "Equip_Equipment_Uid": [
+      2,
+      -1,
+      -1,
+      -1,
+      12
+    ]
+  },
+  "3": {
+    "Character_Uid": 3,
+    "Equip_Equipment_Uid": [
+      4,
+      -1,
+      3,
+      -1,
+      -1
+    ]
+  }
+}
