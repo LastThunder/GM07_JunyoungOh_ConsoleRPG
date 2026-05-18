@@ -37,7 +37,7 @@ namespace ConsoleRPG.DTO
         
     }
 
-    class Character_Status // 클라용 캐릭터 상세 정보
+    class Character_Status // 캐릭터 상세 정보 (클라)
     {
         public string Name { get; set; }
         public int Hp_cur { get; set; }
@@ -61,7 +61,7 @@ namespace ConsoleRPG.DTO
     }
 
 
-    class Character_Type : IGetNoable<int> // 캐릭터 타입 상세 정보 (csv)
+    class Character_Type : IGetNoable<int> // 캐릭터 타입 상세 정보 (data)
     {
         public int No { get; set; }
         public string Name { get; set; }
@@ -88,7 +88,7 @@ namespace ConsoleRPG.DTO
         }
     }
 
-    class Character_Job : IGetNoable<int> // 캐릭터 직업 정보 (csv)
+    class Character_Job : IGetNoable<int> // 캐릭터 직업 정보 (data)
     {
         public int No { set; get; }
         public string Name { set; get; }

@@ -16,7 +16,6 @@ namespace ConsoleRPG
         {
             Console.CursorVisible = false;
             if (!Directory.Exists("DB\\")) Directory.CreateDirectory("DB\\");
-            if (!Directory.Exists("Data\\")) Directory.CreateDirectory("Data\\");
 
             Player player = new();
             player.Account = new(1, "1", "1", "테스트", "1");

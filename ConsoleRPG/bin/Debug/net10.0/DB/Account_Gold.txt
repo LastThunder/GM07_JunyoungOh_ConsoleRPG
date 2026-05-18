@@ -1,6 +1,6 @@
 {
   "1": {
     "Account_Uid": 1,
-    "Gold": 26000
+    "Gold": 0
   }
 }

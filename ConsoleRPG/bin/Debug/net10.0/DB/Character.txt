@@ -6,7 +6,7 @@
     "JobNo": 10001,
     "Name": "\uC8FC\uC778\uACF5",
     "Level": 1,
-    "Exp_Cur": 100
+    "Exp_Cur": 0
   },
   "2": {
     "Uid": 2,
@@ -15,7 +15,7 @@
     "JobNo": 10002,
     "Name": "\uD788\uB85C\uC778",
     "Level": 1,
-    "Exp_Cur": 100
+    "Exp_Cur": 0
   },
   "3": {
     "Uid": 3,
@@ -24,6 +24,6 @@
     "JobNo": 10003,
     "Name": "\uB3D9\uB8CCB",
     "Level": 1,
-    "Exp_Cur": 100
+    "Exp_Cur": 0
   }
 }

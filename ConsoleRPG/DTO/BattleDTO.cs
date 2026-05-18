@@ -50,7 +50,7 @@ namespace ConsoleRPG.DTO
 
     }
 
-    class Skill : IGetNoable<int>
+    class Skill : IGetNoable<int> // 전투 중 스킬 관련 정보 (data)
     {
         public int No { get; set; }
         public string Name { get; set; }
@@ -75,7 +75,7 @@ namespace ConsoleRPG.DTO
     }
 
 
-    class Skill_Effect : IGetNoable<int>
+    class Skill_Effect : IGetNoable<int>   // 스킬 특수 효과 구분용 (data)
     {
         public int No { get; set; }
         public string Name { get; set; }
@@ -99,7 +99,7 @@ namespace ConsoleRPG.DTO
         }
     }
 
-    class Condition : IGetNoable<int>
+    class Condition : IGetNoable<int>  // 상태이상 구분용 (data)
     {
         public int No { get; set; }
         public string Name { get; set; }

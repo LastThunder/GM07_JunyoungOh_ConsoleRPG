@@ -105,7 +105,7 @@ namespace ConsoleRPG.UI
                 {
                     Console.Write("[");
                     if (count < 10) Console.Write(" ");
-                    Console.Write($"{count}]  {Dm.Item[Player.Equipments[key].ItemNo].Name}   부위 : {eqiup_parts[Player.Equipments[key].Equip_Slot - 1]}   가격 : {Dm.Item[Player.Equipments[key].ItemNo].Gold}");
+                    Console.Write($"{count}]  {Dm.Item[Player.Equipments[key].ItemNo].Name}   ({eqiup_parts[Player.Equipments[key].Equip_Slot - 1]})   가격 : {Dm.Item[Player.Equipments[key].ItemNo].Gold}");
                     if (Player.Equipments[key].Equip_Character_Uid != -1) Console.Write($"  [E] [{Player.Characters[Player.Equipments[key].Equip_Character_Uid].Name}]");
                     Console.WriteLine();
                     count = count + 1;
@@ -121,7 +121,7 @@ namespace ConsoleRPG.UI
             {
                 Console.Write("[");
                 if (count < 10) Console.Write(" ");
-                Console.Write($"{count}]  {Dm.Item[temp].Name}   부위 : {eqiup_parts[Dm.Item[temp].Eqiup_Slot-1]}   ");
+                Console.Write($"{count}]  {Dm.Item[temp].Name}   ({eqiup_parts[Dm.Item[temp].Eqiup_Slot-1]})   ");
                 if (Dm.Item[temp].Hp > 0) Console.Write($"{item_status[0]} +{Dm.Item[temp].Hp}   ");
                 if (Dm.Item[temp].Mp > 0) Console.Write($"{item_status[1]} +{Dm.Item[temp].Mp}   ");
                 if (Dm.Item[temp].Str > 0) Console.Write($"{item_status[2]} +{Dm.Item[temp].Str}   ");

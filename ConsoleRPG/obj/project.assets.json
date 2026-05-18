@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\ConsoleRPG\\ConsoleRPG.csproj",
+      "projectUniqueName": "C:\\Dev\\GM07_JunyoungOh_ConsoleRPG\\ConsoleRPG\\ConsoleRPG.csproj",
       "projectName": "ConsoleRPG",
-      "projectPath": "C:\\Dev\\ConsoleRPG\\ConsoleRPG.csproj",
+      "projectPath": "C:\\Dev\\GM07_JunyoungOh_ConsoleRPG\\ConsoleRPG\\ConsoleRPG.csproj",
       "packagesPath": "C:\\Users\\junyo\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\ConsoleRPG\\obj\\",
+      "outputPath": "C:\\Dev\\GM07_JunyoungOh_ConsoleRPG\\ConsoleRPG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\junyo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -23,7 +23,7 @@ namespace ConsoleRPG.DTO
         }
     }
 
-    class Item : IGetNoable<int> // 각 장비별 세부 정보 (csv)
+    class Item : IGetNoable<int> // 각 장비별 세부 정보 (data)
     {
         public int No { get; set; }
         public string Name { get; set; }
