@@ -2,7 +2,7 @@
 
 ## 개요
 MSA 구조를 로컬로 연습해 보기 위한 콘솔RPG
-<br/>
+<br/><br/>
 
 ## 주요내용
 <img width="230" height="500" alt="260517_GM_07_오준영_과제18 (7)" src="https://github.com/user-attachments/assets/6a9fdca7-204b-43fa-a413-1308e5eb49ee" align="left" hspace="20">
@@ -16,7 +16,7 @@ MSA 구조를 로컬로 연습해 보기 위한 콘솔RPG
    (DB 부담을 줄이기 위해 비가역적 데이터는 csv/json 등을 이용)
 
 3. API GateWay (서버)
- - 클라/App Server가 요청한 처리를 담당 App 서버로 분산 / 결과 통합 후 클라에 리턴
+ - 클라/App Server 요청을 담당 App서버로 분산 -> 결과 통합 후 리턴
  - 인증 / 로깅도 주로 여기서 진행
 
 4. 클라
