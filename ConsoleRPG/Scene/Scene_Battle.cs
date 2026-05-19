@@ -106,7 +106,7 @@ namespace ConsoleRPG.Scene
                         player.Characters_Status[units[i].Uid].Hp_cur = units[i].Stat.Hp_cur;
                     }
                 }
-                api.BattleClear(battleNo);
+                api.BattleClear(player.Account.Hash,battleNo);
                 api.Player_Init(player);
                 Dm.Re_Status(player);
             }

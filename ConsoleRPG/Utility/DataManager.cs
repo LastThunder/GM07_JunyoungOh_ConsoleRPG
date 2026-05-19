@@ -23,14 +23,12 @@ namespace ConsoleRPG.Utility
         {
             inven.Clear();
             inven.AddRange(player.Equipments.Keys);
-            //foreach (long key in player.Equipments.Keys)    inven.Add(key);
         }
 
         public static void Re_Party(Player player, List<long> party)
         {
             party.Clear();
             party.AddRange(player.Characters.Keys);
-            //foreach (long key in player.Characters.Keys) party.Add(key);
         }
 
         public static void Re_Status(Player player, int reset = 0) // 캐릭별 상세 정보 갱신

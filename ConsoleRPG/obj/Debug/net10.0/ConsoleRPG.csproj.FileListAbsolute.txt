@@ -39,3 +39,12 @@ C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\refint\ConsoleRPG
 C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\ConsoleRPG.pdb
 C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\ConsoleRPG.genruntimeconfig.cache
 C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\ref\ConsoleRPG.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\ConsoleRPG.csproj.AssemblyReference.cache
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Dev\GM07_JunyoungOh_ConsoleRPG\ConsoleRPG\obj\Debug\net10.0\ConsoleRPG.csproj.Up2Date

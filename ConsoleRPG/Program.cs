@@ -1,12 +1,12 @@
 ﻿using ConsoleRPG.DTO;
-using ConsoleRPG.Utility;
-using System.Threading.Channels;
-
 using ConsoleRPG.Scene;
-using API=ConsoleRPG.ApiGateway;
-using Ui=ConsoleRPG.UI.UI;
-using Dm=ConsoleRPG.Utility.DataManager;
+using ConsoleRPG.Utility;
 using System.Runtime.Intrinsics.X86;
+using System.Text.Json;
+using System.Threading.Channels;
+using API=ConsoleRPG.ApiGateway;
+using Dm=ConsoleRPG.Utility.DataManager;
+using Ui=ConsoleRPG.UI.UI;
 
 namespace ConsoleRPG
 {
@@ -17,13 +17,36 @@ namespace ConsoleRPG
             Console.CursorVisible = false;
             if (!Directory.Exists("DB\\")) Directory.CreateDirectory("DB\\");
 
+
             Player player = new();
-            player.Account = new(1, "1", "1", "테스트", "1");
+            API.ApiGateway api = new();
+
+            string filePath = "SAVE\\Account.txt";
+            string jsonString;
+            if (!Directory.Exists("SAVE\\"))
+            {
+                Directory.CreateDirectory("SAVE\\");
+
+                player.Account = new(1, "1", "1", "테스트", "-1");
+                //player.Account = new(-1, "2", "2", "테스트2", "-1");
+            }
+            else
+            {
+                jsonString = File.ReadAllText(filePath);
+                player.Account = JsonSerializer.Deserialize<Account>(jsonString);
+            }
+
+            player.Account = api.Player_Account_Init(player.Account);
+
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            jsonString = JsonSerializer.Serialize(player.Account, options);
+            File.WriteAllText(filePath, jsonString);
+
+
             player.Characters_Status = new();
             List<long> inven = new();
             List<long> party = new();
 
-            API.ApiGateway api = new(player.Account.Hash);
             Ui.Player = player;
             Ui.Inven = inven;
             Ui.Party = party;
@@ -36,9 +59,9 @@ namespace ConsoleRPG
             // 최초 실행시 동료 추가 여부 (주석으로 알아서 조절) (추후 매뉴화)
             if (player.Characters.Count < 2)
             {
-                api.PartyJoin(1002001);
-                api.PartyJoin(1003001);
-                //api.PartyJoin(1004001);
+                api.PartyJoin(player.Account.Hash, 1002001);
+                api.PartyJoin(player.Account.Hash, 1003001);
+                //api.PartyJoin(player.Account.Hash,1004001);
                 api.Player_Init(player);
                 Dm.Re_Status(player, 1);
                 Dm.Re_Party(player, party);

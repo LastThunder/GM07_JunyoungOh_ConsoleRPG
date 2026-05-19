@@ -5,7 +5,7 @@
     "TypeNo": 1001001,
     "JobNo": 10001,
     "Name": "\uC8FC\uC778\uACF5",
-    "Level": 7,
+    "Level": 2,
     "Exp_Cur": 0
   },
   "2": {
@@ -14,7 +14,7 @@
     "TypeNo": 1002001,
     "JobNo": 10002,
     "Name": "\uD788\uB85C\uC778",
-    "Level": 7,
+    "Level": 2,
     "Exp_Cur": 0
   },
   "3": {
@@ -23,7 +23,7 @@
     "TypeNo": 1003001,
     "JobNo": 10003,
     "Name": "\uB3D9\uB8CCB",
-    "Level": 7,
+    "Level": 2,
     "Exp_Cur": 0
   }
 }
