@@ -5,5 +5,208 @@
     "ItemNo": -1,
     "Equip_Slot": 0,
     "Equip_Character_Uid": -1
+  },
+  "28": {
+    "Uid": 28,
+    "Account_Uid": 1,
+    "ItemNo": 40200001,
+    "Equip_Slot": 4,
+    "Equip_Character_Uid": -1
+  },
+  "29": {
+    "Uid": 29,
+    "Account_Uid": 1,
+    "ItemNo": 50100001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "30": {
+    "Uid": 30,
+    "Account_Uid": 1,
+    "ItemNo": 50300001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "31": {
+    "Uid": 31,
+    "Account_Uid": 1,
+    "ItemNo": 10203001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "32": {
+    "Uid": 32,
+    "Account_Uid": 1,
+    "ItemNo": 40200001,
+    "Equip_Slot": 4,
+    "Equip_Character_Uid": -1
+  },
+  "33": {
+    "Uid": 33,
+    "Account_Uid": 1,
+    "ItemNo": 40200001,
+    "Equip_Slot": 4,
+    "Equip_Character_Uid": -1
+  },
+  "34": {
+    "Uid": 34,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "35": {
+    "Uid": 35,
+    "Account_Uid": 1,
+    "ItemNo": 30200001,
+    "Equip_Slot": 3,
+    "Equip_Character_Uid": -1
+  },
+  "36": {
+    "Uid": 36,
+    "Account_Uid": 1,
+    "ItemNo": 20200001,
+    "Equip_Slot": 2,
+    "Equip_Character_Uid": -1
+  },
+  "37": {
+    "Uid": 37,
+    "Account_Uid": 1,
+    "ItemNo": 20200001,
+    "Equip_Slot": 2,
+    "Equip_Character_Uid": -1
+  },
+  "38": {
+    "Uid": 38,
+    "Account_Uid": 1,
+    "ItemNo": 20200001,
+    "Equip_Slot": 2,
+    "Equip_Character_Uid": -1
+  },
+  "39": {
+    "Uid": 39,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "40": {
+    "Uid": 40,
+    "Account_Uid": 1,
+    "ItemNo": 10201001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "41": {
+    "Uid": 41,
+    "Account_Uid": 1,
+    "ItemNo": 10202001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "42": {
+    "Uid": 42,
+    "Account_Uid": 1,
+    "ItemNo": 10203001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "43": {
+    "Uid": 43,
+    "Account_Uid": 1,
+    "ItemNo": 10201001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "44": {
+    "Uid": 44,
+    "Account_Uid": 1,
+    "ItemNo": 10204001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "45": {
+    "Uid": 45,
+    "Account_Uid": 1,
+    "ItemNo": 10202001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "46": {
+    "Uid": 46,
+    "Account_Uid": 1,
+    "ItemNo": 20200001,
+    "Equip_Slot": 2,
+    "Equip_Character_Uid": -1
+  },
+  "47": {
+    "Uid": 47,
+    "Account_Uid": 1,
+    "ItemNo": 30200001,
+    "Equip_Slot": 3,
+    "Equip_Character_Uid": -1
+  },
+  "48": {
+    "Uid": 48,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "49": {
+    "Uid": 49,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "50": {
+    "Uid": 50,
+    "Account_Uid": 1,
+    "ItemNo": 10202001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "51": {
+    "Uid": 51,
+    "Account_Uid": 1,
+    "ItemNo": 10201001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "52": {
+    "Uid": 52,
+    "Account_Uid": 1,
+    "ItemNo": 30200001,
+    "Equip_Slot": 3,
+    "Equip_Character_Uid": -1
+  },
+  "53": {
+    "Uid": 53,
+    "Account_Uid": 1,
+    "ItemNo": 30200001,
+    "Equip_Slot": 3,
+    "Equip_Character_Uid": -1
+  },
+  "54": {
+    "Uid": 54,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
+  },
+  "55": {
+    "Uid": 55,
+    "Account_Uid": 1,
+    "ItemNo": 10204001,
+    "Equip_Slot": 1,
+    "Equip_Character_Uid": -1
+  },
+  "56": {
+    "Uid": 56,
+    "Account_Uid": 1,
+    "ItemNo": 50200001,
+    "Equip_Slot": 5,
+    "Equip_Character_Uid": -1
   }
 }

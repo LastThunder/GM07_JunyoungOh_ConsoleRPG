@@ -29,13 +29,13 @@ namespace ConsoleRPG.Scene
                        
 
             Stack<int> move_units = new();
-            SortedList<int, int> sorted = new SortedList<int, int>();
             List<int> select_units = new();
 
             int isTurn = 2;
             int isPlayer = 0;
             int isClear = Battle_Clear_Check(units);
-                                   
+            Random rand = new();
+
 
             Console.Clear();
             Ui.Info_Player();
@@ -48,14 +48,12 @@ namespace ConsoleRPG.Scene
                 if (move_units.Count == 0) // 아군/적군 턴에 따른 동작 순위 선택
                 {                    
                     if (isTurn > 1) isTurn = 1;
-                    else isTurn = 2;
-                    sorted.Clear();
+                    else isTurn = 2;                    
 
-                    for (int i = 0; i < units.Count; i++)
-                    {
-                        if (units[i].Stat.Hp_cur > 0 && units[i].Faction == isTurn) sorted.Add(i, units[i].Stat.Agi_total); //민첩순으로 정렬
-                    }
-                    foreach (int key in sorted.Keys) move_units.Push(key);
+                    foreach (var pair in units.Select((unit, index) => (unit, index))
+                          .Where(p => p.unit.Stat.Hp_cur > 0 && p.unit.Faction == isTurn).OrderBy(p => p.unit.Stat.Agi_total))
+                        { move_units.Push(pair.index); } // 민첩이 빠른 순서로 동작 (민첩성 내림차순을 스텍 추가)
+
                 }
 
                 Console.SetCursorPosition(0, 20);
@@ -73,23 +71,20 @@ namespace ConsoleRPG.Scene
                     //Console.ReadLine(); // 추후 스킬 넘버 선택
 
                     select_units.Clear();
-                    for (int i = 0; i < units.Count; i++) //대상선택
-                    {
-                        if (units[i].Stat.Hp_cur > 0 && units[i].Faction != units[isPlayer].Faction) select_units.Add(i);
-                    }
+                    select_units.AddRange(units.Select((unit, index) => (unit, index))
+                        .Where(x => x.unit.Stat.Hp_cur > 0 && x.unit.Faction != units[isPlayer].Faction).Select(x => x.index));
 
-                    //행동실행
-                    Random rand = new();
+                    //행동실행                    
                     Attack(units, isPlayer, select_units[rand.Next(select_units.Count)]);                    
                 }
                 else //npc 동작
                 {
+                    //추후 스킬 자동 선택
+
                     select_units.Clear();
-                    for (int i = 0; i < units.Count; i++)
-                    {
-                        if (units[i].Stat.Hp_cur > 0 && units[i].Faction != units[isPlayer].Faction) select_units.Add(i);
-                    }
-                    Random rand = new();
+                    select_units.AddRange(units.Select((unit, index) => (unit, index))
+                        .Where(x => x.unit.Stat.Hp_cur > 0 && x.unit.Faction != units[isPlayer].Faction).Select(x => x.index));
+                                        
                     Attack(units, isPlayer, select_units[rand.Next(select_units.Count)]);
                 }
                 Thread.Sleep(750);

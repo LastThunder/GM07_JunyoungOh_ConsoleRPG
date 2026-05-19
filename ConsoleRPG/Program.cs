@@ -46,7 +46,8 @@ namespace ConsoleRPG
 
             Random rand = new Random();
             bool exit = false;
-            int chance_battle = 0;
+            int battle_chance = 0;
+            int battle_avoid = 0;
 
             int x = 10, y = 10;
             ConsoleKeyInfo keyInfo;
@@ -85,8 +86,10 @@ namespace ConsoleRPG
                 Console.SetCursorPosition(x, y);
                 Console.Write("★");
 
-                chance_battle = rand.Next(100);
-                if (chance_battle > 90 && keyInfo.Key != ConsoleKey.Escape)
+                if (battle_avoid > 2) battle_chance = rand.Next(100);
+                else battle_avoid++;
+
+                if (battle_chance > 90 && keyInfo.Key != ConsoleKey.Escape)
                 {
                     Console.SetCursorPosition(4, y-1);
                     Console.WriteLine($"몬스터가 나타났다!!");
@@ -94,6 +97,9 @@ namespace ConsoleRPG
 
                     Scene_Battle.Battle_Start(player, api, 3010101);
                     Console.Clear();
+
+                    battle_chance = 0;
+                    battle_avoid = 0;
                 }
             }
         }

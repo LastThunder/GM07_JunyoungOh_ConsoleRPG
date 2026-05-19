@@ -31,10 +31,7 @@ namespace ConsoleRPG.Scene
                 if (0 < select && select < 6)
                 {
                     item.Clear();
-                    foreach (int temp in Dm.Item.Keys)
-                    {
-                        if (Dm.Item[temp].Eqiup_Slot== select)   item.Add(temp);
-                    }
+                    item.AddRange(Dm.Item.Values.Where(x => x.Eqiup_Slot == select).Select(x => x.No));
 
                     Console.Clear();
                     while (true)
